@@ -11,3 +11,7 @@ void main() {
     double estatura = scanner.nextDouble();
 
 }
+
+public static double calcularIMC(double peso, double estatura) {
+    return peso / (estatura * estatura);
+}
